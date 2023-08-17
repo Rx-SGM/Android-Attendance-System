@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    tools:context=".OnLogin"
+    android:id="@+id/rel_layout">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/reg_btn"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_btn"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginTop="200dp"
+        android:textColor="@color/white"
+        android:text="Register Employee" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/train_btn"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_btn"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginTop="300dp"
+        android:textColor="@color/white"
+        android:text="Train Model" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/list_btn"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_btn"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginTop="400dp"
+        android:textColor="@color/white"
+        android:text="Employees List" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/CDOT"
+        android:src="@drawable/cdot_logo"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="135dp"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>

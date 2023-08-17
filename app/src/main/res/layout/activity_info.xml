@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.attendancesystem.InfoActivity">
+
+
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="650dp"
+        android:id="@+id/totalinfo"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:text="Your Information"
+        android:paddingBottom="10dp"
+        />
+
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="560dp"
+        android:id="@+id/nameinfo"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:text="Name"
+        android:paddingBottom="10dp"
+        />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="490dp"
+        android:id="@+id/staffinfo"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:text="Staff ID"
+        android:paddingBottom="10dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DONE"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="420dp"
+        android:id="@+id/done"
+        />
+
+</RelativeLayout>

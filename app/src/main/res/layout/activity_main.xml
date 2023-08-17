@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.attendancesystem.MainActivity">
+
+
+    <androidx.camera.view.PreviewView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/camPreview"/>
+
+    <!--    <ImageButton-->
+    <!--        android:layout_width="60sp"-->
+    <!--        android:layout_height="60sp"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginBottom="40sp"-->
+    <!--        android:id="@+id/capture"-->
+    <!--        android:src="@drawable/round_camera_24"-->
+    <!--        android:scaleType="centerCrop"-->
+    <!--        android:background="?attr/selectableItemBackgroundBorderless"-->
+    <!--        app:tint="#fff" />-->
+
+    <!--    <ImageButton-->
+    <!--        android:layout_width="40sp"-->
+    <!--        android:layout_height="40sp"-->
+    <!--        android:layout_margin="10sp"-->
+    <!--        android:layout_alignParentEnd="true"-->
+    <!--        android:id="@+id/toggleFlash"-->
+    <!--        android:src="@drawable/round_flash_on_24"-->
+    <!--        android:background="?attr/selectableItemBackgroundBorderless"-->
+    <!--        app:tint="#fff" />-->
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/CDOT"
+        android:src="@drawable/cdot_logo"
+        />
+
+</RelativeLayout>
